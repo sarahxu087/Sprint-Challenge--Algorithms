@@ -11,11 +11,10 @@ a)  a = 0
       a = a + n * n
 ```
 
-
 ```
 b)  sum = 0
     for i in range(n):
-      j = 1
+      j = 1   
       while j < n:
         j *= 2
         sum += 1

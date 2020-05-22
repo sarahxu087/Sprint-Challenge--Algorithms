@@ -18,14 +18,5 @@ c)  for value in date:
         print(value)
 o(n)
 ## Exercise II
-if we have one egg, then we need to drop,the worst case would be drop every floor, so it will return floor, if we only have one floor,then we only need drop one time, it will return floor too.
-
-
-for current in range(1, floor+1):
-        #worst case
-    max(drop(egg,floor-curren),drop(egg-1,current-1))
-             egg don't break    egg break
-
-
-real case need to be worset case +=1
-o(2**n)
+so it is n floor , I choose the mid the floor start to drop,and I only need to know if it breaks then I go down, if not break Then I go up,  then find another mid, then check if it breaks or not. so i can use binary search.
+o(logn)
